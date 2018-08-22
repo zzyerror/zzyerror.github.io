@@ -4,9 +4,9 @@ title: 首页
 ---
 
 <p>欢迎访问我的博客</p>
-当前有 {{site.posts}} 篇文章:
+
 <ul>
-    {% for post in posts%}
+    {% for post in site.posts%}
     <li>{{post.title}}</li>
     {% endfor %}
 
